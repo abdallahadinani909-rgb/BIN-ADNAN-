@@ -18,8 +18,8 @@ const getContextInfo = (m) => {
 
 // 1. YT-DL API (Alternative working API)
 cmd({
-    pattern: "song",
-    alias: ["ytmp3", "mp3"],
+    pattern: "song2",
+    alias: ["ytmp3", "mp32"],
     react: "🎵",
     desc: "Download audio from YouTube",
     category: "song",
