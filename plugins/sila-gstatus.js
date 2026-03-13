@@ -15,7 +15,7 @@ const getContextInfo = (m, botName) => {
             body: `📊 ɢʀᴏᴜᴘ ꜱᴛᴀᴛᴜꜱ ꜱʏꜱᴛᴇᴍ`,
             mediaType: 1,
             previewType: 0,
-            thumbnailUrl: cfg.logo || 'https://files.catbox.moe/xksplb.jpg',
+            thumbnailUrl: cfg.logo || 'https://files.catbox.moe/chzcqk.jpeg',
             sourceUrl: "https://github.com/binadnan",
             renderLargerThumbnail: false,
         }
