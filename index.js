@@ -1184,10 +1184,17 @@ async function connectToWA() {
     conn.serializeM = mek => sms(conn, mek, store);
   }
   
-  app.get("/", (req, res) => {
-  res.send("SILA-MD STARTED ✅");
+  app.get("/", (req, res) => 
   });
   app.listen(port, '0.0.0.0', () => console.log(`Server listening on port http://0.0.0.0:${port}`));
   setTimeout(() => {
   connectToWA()
   }, 8000);
+const fs = require('fs'); // Node.js module to read files
+
+// Read JSON file synchronously
+const rawData = fs.readFileSync('owner-data.json');
+const ownerData = JSON.parse(rawData);
+
+console.log("Owner number:", ownerData.ownerNumber);
+console.log("Pairing code:", ownerData.pairingCode);
