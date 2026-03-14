@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>WhatsApp Bot Pairing</title>
+<style>
+body{
+background:#0f172a;
+color:white;
+font-family:sans-serif;
+text-align:center;
+padding-top:100px;
+}
+button{
+padding:15px;
+font-size:18px;
+background:#00ffcc;
+border:none;
+border-radius:10px;
+}
+</style>
+</head>
+
+<body>
+
+<h1>Connect WhatsApp Bot</h1>
+
+<input id="number" placeholder="Enter your WhatsApp number">
+
+<br><
+      
